@@ -1,0 +1,300 @@
+
+#header {
+	color:#E7879A;
+	
+	height: 200px;
+	position:relative;
+	
+	
+}
+
+#cart ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+  
+}
+
+#cart li {
+  float: right;
+  border:2px solid  #fff;
+}
+
+#cart li a {
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#cart li a:hover {
+  background-color:#E7879A;
+}
+#header h1 {
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 85px;
+	float:left;
+	margin: 0;
+	text-align:left;
+	padding-bottom:400px;
+	
+	
+}
+#left_column p {
+    font-size: 18px;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+    font-size: 16px;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+}
+p4{
+  font-size:30px ;
+  color: red;
+  text-align: center;
+
+}
+#nav {
+	background-color:white;
+	position: relative;
+
+}
+
+#nav ul {
+	margin: 0;
+	padding: 20px;
+	list-style-type:none;
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+        display:flex;
+}
+
+
+
+
+#nav a{
+	font-size: 20px;
+	color: #f2f2f2;
+	text-decoration: none;
+	text-align:center;
+	width: 180px;
+	display:block;
+	background-color:#544E4E;
+        border-radius:7px;	
+}
+
+#nav a:hover{
+	background-color:lightgray;
+	
+	box-shadow: 0 0 10px #A2A2A2, 0 0 40px #A2A2A2, 0 0 80px #A2A2A2;
+}
+
+#nav ul li{
+       list-style:none;
+       border:2px solid  #fff;
+       font-size:10px;
+       font-weight:bold;
+       margin:5px;
+       border-radius:7px;
+       font-family:Serif;     
+}
+#container {
+       
+	background: #F1F1F1;
+        Opacity: 0.8;
+	overflow:hidden;
+        Width:100%;
+	position: absolute;
+        display: block;
+
+}
+
+#CO {
+       
+	background: #F1F1F1;
+      
+	overflow:hidden;
+        Width:100%;
+	position: absolute;
+        display: block;
+
+}
+
+
+#left_column{
+  float: left;
+ width: 60%;
+  padding: 15px;
+
+}
+
+#footer{
+	background:#E7879A;
+	color:white;
+        text-align: center;
+        clear:both;
+        position: relative;
+        padding: 20px;
+	
+}
+
+ ul2 li{
+       list-style:none;
+       font-size:10px;
+       font-weight:bold;
+       margin:5px;
+       border-radius:7px;
+       font-family:Serif;        
+}
+#Video{
+       position:static;
+       top:20%;
+       left:30%;
+       right:50%; 
+       margin:0;
+       padding:0;
+       box-sizing:border-box;
+	display: table;
+  
+}
+
+
+h4{
+	font-size: 30px;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	text-align: center;
+	
+}
+
+
+#left,#right, #center {
+    height: 100%;
+    float: left;
+}
+
+#right {
+    
+    width: 25%;
+}
+
+#center {
+    
+    width: 75%;
+}
+* {box-sizing: border-box}
+
+
+.container {
+  padding: 16px;
+}
+
+
+
+#bo {
+overflow: hidden;
+}
+#bg {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  mix-blend-mode: hue;
+}
+
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+
+.col-25 {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+}
+
+.col-50 {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+}
+
+.col-75 {
+  -ms-flex: 75%; /* IE10 */
+  flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+
+.container {
+  background-color: #f2f2f2;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
+
+input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+.btn {
+  background-color: #E7879A;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.btn:hover {
+  background-color: #E7879A;
+}
+
+a {
+  color: #2196F3;
+}
+
+hr {
+  border: 1px solid lightgrey;
+}
+
+span.price {
+  float: right;
+  color: grey;
+}
+@media (max-width: 800px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+  .col-25 {
+    margin-bottom: 20px;
+  }
+}

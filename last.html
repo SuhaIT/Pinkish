@@ -1,0 +1,72 @@
+<!Doctype html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<title>PINKISH</title>
+<link href="styles/PRS.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body background="wallpapermarble.jpg">
+	<div id="cart">
+        <ul>
+        <li><a><strong>WISH</strong>  <i class="fa fa-heart" ></i></a></li>
+        <li><a href="registration.html"><strong>CART</strong><i class="fa fa-shopping-cart"></i></a></li>
+      </ul>
+</div>
+   <div id="header">
+       
+        <h1><img src="logoo.png" alt="logo" width="100" height="100" > PINKISH BEAUTY </h1> <br>
+        
+   </div>
+
+   <div id="nav">
+         <ul>	
+	  <li><a href="Pink1.html">HOME</a></li>
+        		 
+	  <li><a href="Details.html">DETAILS</a></li>
+      <li><a href="Products.html">Products List</a></li> 
+      <li><a href="video1.html">Our advertisement</a></li>
+	<li><a href="last.html" >Newest product</a></li>
+	<li><a href="form1.html">Check out</a></li>	
+	
+	 </ul>
+  </div>
+
+
+<div id="CO">
+
+	<div id="left_column">
+        <body>
+            <p4><strong>BREAK THE RULES! TRY ALL THE COLORS!</strong></p4>
+            <P><strong>*CLICK ON the lips to see all our lipstick colors.*</strong></P>
+
+            <img src="bglips1.jpg" width="900" height="500"> 
+            
+            <div id="bg"></div>
+                <script type="text/javascript">
+                const bg =document.getElementById('bg')
+                function randomColor(){
+                    return Math.floor(Math.random() * 255);
+                }
+                bg.addEventListener('click', () =>{
+                    bg.style.backgroundColor = 'rgba('+randomColor()+','+randomColor()+','+randomColor()+')'
+                })
+                </script>
+</div>
+
+
+	<div id="footer">
+        <br>
+                <h5>CONTACT DETAILS</h5>
+                <p>phone number: 05500000</p>
+                <p> Saudi Arabia,Albaha</p>
+                <p>OOOO@gmail.com</p>
+                
+		<p><em>&copy; pinkish.com </em></p>
+	</div>
+	</div>
+
+</body>
+</html>
